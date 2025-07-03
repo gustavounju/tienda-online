@@ -26,6 +26,11 @@
                 "input": "public"
               }
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "node_modules/"
+              ]
+            },
             "styles": [
               "src/styles.scss"
             ],
