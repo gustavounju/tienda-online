@@ -1,0 +1,9 @@
+<div class="card h-100">
+  <img [src]="product.image" class="card-img-top" alt="{{ product.name }}"> [cite: 716, 717]
+  <div class="card-body">
+    <h5 class="card-title">{{ product.name }}</h5> [cite: 719]
+    <p class="card-text">{{ product.description }}</p> [cite: 720]
+    <p class="text-primary">${{ product.price }}</p> [cite: 721]
+    <p class="card-text"><small class="text-muted">Stock: {{ product.stock }}</small></p> <button class="btn btn-sm btn-outline-primary" [routerLink]="['/shop', product.id]">Ver más</button>
+  </div>
+</div>
